@@ -7,12 +7,12 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/handler/extension"
-	"github.com/99designs/gqlgen/graphql/playground"
-	"github.com/99designs/gqlgen/integration"
-	"github.com/vektah/gqlparser/v2/gqlerror"
+	"github.com/beyondan/gqlgen/graphql"
+	"github.com/beyondan/gqlgen/graphql/handler"
+	"github.com/beyondan/gqlgen/graphql/handler/extension"
+	"github.com/beyondan/gqlgen/graphql/playground"
+	"github.com/beyondan/gqlgen/integration"
+	"github.com/beyondan/gqlparser/v2/gqlerror"
 )
 
 const defaultPort = "8080"

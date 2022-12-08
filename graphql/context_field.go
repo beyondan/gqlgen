@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/vektah/gqlparser/v2/ast"
+	"github.com/beyondan/gqlparser/v2/ast"
 )
 
 type key string

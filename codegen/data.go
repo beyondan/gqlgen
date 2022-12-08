@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"sort"
 
+	"github.com/beyondan/gqlparser/v2/ast"
 	"github.com/pkg/errors"
-	"github.com/vektah/gqlparser/v2/ast"
 
-	"github.com/99designs/gqlgen/codegen/config"
+	"github.com/beyondan/gqlgen/codegen/config"
 )
 
 // Data is a unified model of the code to be generated. Plugins may modify this structure to do things like implement

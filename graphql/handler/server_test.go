@@ -7,14 +7,14 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/handler/testserver"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
+	"github.com/beyondan/gqlgen/graphql"
+	"github.com/beyondan/gqlgen/graphql/handler/testserver"
+	"github.com/beyondan/gqlgen/graphql/handler/transport"
+	"github.com/beyondan/gqlparser/v2/ast"
+	"github.com/beyondan/gqlparser/v2/gqlerror"
+	"github.com/beyondan/gqlparser/v2/parser"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/vektah/gqlparser/v2/ast"
-	"github.com/vektah/gqlparser/v2/gqlerror"
-	"github.com/vektah/gqlparser/v2/parser"
 )
 
 func TestServer(t *testing.T) {

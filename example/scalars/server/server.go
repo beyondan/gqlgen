@@ -4,9 +4,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/99designs/gqlgen/example/scalars"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/playground"
+	"github.com/beyondan/gqlgen/example/scalars"
+	"github.com/beyondan/gqlgen/graphql/handler"
+	"github.com/beyondan/gqlgen/graphql/playground"
 )
 
 func main() {

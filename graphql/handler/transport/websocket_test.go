@@ -9,16 +9,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/99designs/gqlgen/client"
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/handler/testserver"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
+	"github.com/beyondan/gqlgen/client"
+	"github.com/beyondan/gqlgen/graphql"
+	"github.com/beyondan/gqlgen/graphql/handler"
+	"github.com/beyondan/gqlgen/graphql/handler/testserver"
+	"github.com/beyondan/gqlgen/graphql/handler/transport"
+	"github.com/beyondan/gqlparser/v2"
+	"github.com/beyondan/gqlparser/v2/ast"
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/vektah/gqlparser/v2"
-	"github.com/vektah/gqlparser/v2/ast"
 )
 
 type ckey string

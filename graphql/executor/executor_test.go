@@ -4,13 +4,13 @@ import (
 	"context"
 	"testing"
 
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/executor/testexecutor"
+	"github.com/beyondan/gqlgen/graphql"
+	"github.com/beyondan/gqlgen/graphql/executor/testexecutor"
+	"github.com/beyondan/gqlparser/v2/ast"
+	"github.com/beyondan/gqlparser/v2/gqlerror"
+	"github.com/beyondan/gqlparser/v2/parser"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/vektah/gqlparser/v2/ast"
-	"github.com/vektah/gqlparser/v2/gqlerror"
-	"github.com/vektah/gqlparser/v2/parser"
 )
 
 func TestExecutor(t *testing.T) {

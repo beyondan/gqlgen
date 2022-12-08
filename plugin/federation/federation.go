@@ -5,12 +5,12 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/vektah/gqlparser/v2/ast"
+	"github.com/beyondan/gqlparser/v2/ast"
 
-	"github.com/99designs/gqlgen/codegen"
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/codegen/templates"
-	"github.com/99designs/gqlgen/plugin"
+	"github.com/beyondan/gqlgen/codegen"
+	"github.com/beyondan/gqlgen/codegen/config"
+	"github.com/beyondan/gqlgen/codegen/templates"
+	"github.com/beyondan/gqlgen/plugin"
 )
 
 type federation struct {
@@ -33,21 +33,21 @@ func (f *federation) MutateConfig(cfg *config.Config) error {
 	builtins := config.TypeMap{
 		"_Service": {
 			Model: config.StringList{
-				"github.com/99designs/gqlgen/plugin/federation/fedruntime.Service",
+				"github.com/beyondan/gqlgen/plugin/federation/fedruntime.Service",
 			},
 		},
 		"_Entity": {
 			Model: config.StringList{
-				"github.com/99designs/gqlgen/plugin/federation/fedruntime.Entity",
+				"github.com/beyondan/gqlgen/plugin/federation/fedruntime.Entity",
 			},
 		},
 		"Entity": {
 			Model: config.StringList{
-				"github.com/99designs/gqlgen/plugin/federation/fedruntime.Entity",
+				"github.com/beyondan/gqlgen/plugin/federation/fedruntime.Entity",
 			},
 		},
 		"_Any": {
-			Model: config.StringList{"github.com/99designs/gqlgen/graphql.Map"},
+			Model: config.StringList{"github.com/beyondan/gqlgen/graphql.Map"},
 		},
 	}
 	for typeName, entry := range builtins {

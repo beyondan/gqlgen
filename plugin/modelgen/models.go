@@ -5,10 +5,10 @@ import (
 	"go/types"
 	"sort"
 
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/codegen/templates"
-	"github.com/99designs/gqlgen/plugin"
-	"github.com/vektah/gqlparser/v2/ast"
+	"github.com/beyondan/gqlgen/codegen/config"
+	"github.com/beyondan/gqlgen/codegen/templates"
+	"github.com/beyondan/gqlgen/plugin"
+	"github.com/beyondan/gqlparser/v2/ast"
 )
 
 type BuildMutateHook = func(b *ModelBuild) *ModelBuild
@@ -203,7 +203,7 @@ func (m *Plugin) MutateConfig(cfg *config.Config) error {
 		cfg.Models.Add(it.Name, cfg.Model.ImportPath()+"."+templates.ToGo(it.Name))
 	}
 	for _, it := range b.Scalars {
-		cfg.Models.Add(it, "github.com/99designs/gqlgen/graphql.String")
+		cfg.Models.Add(it, "github.com/beyondan/gqlgen/graphql.String")
 	}
 
 	if len(b.Models) == 0 && len(b.Enums) == 0 && len(b.Interfaces) == 0 && len(b.Scalars) == 0 {

@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/99designs/gqlgen/complexity"
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/errcode"
-	"github.com/vektah/gqlparser/v2/gqlerror"
+	"github.com/beyondan/gqlgen/complexity"
+	"github.com/beyondan/gqlgen/graphql"
+	"github.com/beyondan/gqlgen/graphql/errcode"
+	"github.com/beyondan/gqlparser/v2/gqlerror"
 )
 
 const errComplexityLimit = "COMPLEXITY_LIMIT_EXCEEDED"

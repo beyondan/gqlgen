@@ -8,16 +8,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/handler/apollotracing"
-	"github.com/99designs/gqlgen/graphql/handler/extension"
-	"github.com/99designs/gqlgen/graphql/handler/lru"
-	"github.com/99designs/gqlgen/graphql/handler/testserver"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
+	"github.com/beyondan/gqlgen/graphql"
+	"github.com/beyondan/gqlgen/graphql/handler/apollotracing"
+	"github.com/beyondan/gqlgen/graphql/handler/extension"
+	"github.com/beyondan/gqlgen/graphql/handler/lru"
+	"github.com/beyondan/gqlgen/graphql/handler/testserver"
+	"github.com/beyondan/gqlgen/graphql/handler/transport"
+	"github.com/beyondan/gqlparser/v2/ast"
+	"github.com/beyondan/gqlparser/v2/gqlerror"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/vektah/gqlparser/v2/ast"
-	"github.com/vektah/gqlparser/v2/gqlerror"
 )
 
 func TestApolloTracing(t *testing.T) {

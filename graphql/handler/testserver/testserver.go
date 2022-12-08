@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/vektah/gqlparser/v2"
-	"github.com/vektah/gqlparser/v2/ast"
+	"github.com/beyondan/gqlgen/graphql"
+	"github.com/beyondan/gqlgen/graphql/handler"
+	"github.com/beyondan/gqlparser/v2"
+	"github.com/beyondan/gqlparser/v2/ast"
 )
 
 // New provides a server for use in tests that isn't relying on generated code. It isnt a perfect reproduction of

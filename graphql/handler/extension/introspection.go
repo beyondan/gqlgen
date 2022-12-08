@@ -3,8 +3,8 @@ package extension
 import (
 	"context"
 
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/vektah/gqlparser/v2/gqlerror"
+	"github.com/beyondan/gqlgen/graphql"
+	"github.com/beyondan/gqlparser/v2/gqlerror"
 )
 
 // EnableIntrospection enables clients to reflect all of the types available on the graph.

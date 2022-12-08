@@ -6,11 +6,11 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/99designs/gqlgen/graphql/errcode"
+	"github.com/beyondan/gqlgen/graphql/errcode"
 
-	"github.com/vektah/gqlparser/v2/gqlerror"
+	"github.com/beyondan/gqlparser/v2/gqlerror"
 
-	"github.com/99designs/gqlgen/graphql"
+	"github.com/beyondan/gqlgen/graphql"
 	"github.com/mitchellh/mapstructure"
 )
 

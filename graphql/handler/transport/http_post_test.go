@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/99designs/gqlgen/graphql/handler/testserver"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
+	"github.com/beyondan/gqlgen/graphql/handler/testserver"
+	"github.com/beyondan/gqlgen/graphql/handler/transport"
 	"github.com/stretchr/testify/assert"
 )
 

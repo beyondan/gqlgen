@@ -5,10 +5,10 @@ import (
 	"go/token"
 	"go/types"
 
-	"github.com/99designs/gqlgen/codegen/templates"
-	"github.com/99designs/gqlgen/internal/code"
+	"github.com/beyondan/gqlgen/codegen/templates"
+	"github.com/beyondan/gqlgen/internal/code"
+	"github.com/beyondan/gqlparser/v2/ast"
 	"github.com/pkg/errors"
-	"github.com/vektah/gqlparser/v2/ast"
 )
 
 // Binder connects graphql types to golang types using static analysis

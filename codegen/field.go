@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/codegen/templates"
+	"github.com/beyondan/gqlgen/codegen/config"
+	"github.com/beyondan/gqlgen/codegen/templates"
+	"github.com/beyondan/gqlparser/v2/ast"
 	"github.com/pkg/errors"
-	"github.com/vektah/gqlparser/v2/ast"
 )
 
 type Field struct {

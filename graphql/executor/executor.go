@@ -3,12 +3,12 @@ package executor
 import (
 	"context"
 
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/errcode"
-	"github.com/vektah/gqlparser/v2/ast"
-	"github.com/vektah/gqlparser/v2/gqlerror"
-	"github.com/vektah/gqlparser/v2/parser"
-	"github.com/vektah/gqlparser/v2/validator"
+	"github.com/beyondan/gqlgen/graphql"
+	"github.com/beyondan/gqlgen/graphql/errcode"
+	"github.com/beyondan/gqlparser/v2/ast"
+	"github.com/beyondan/gqlparser/v2/gqlerror"
+	"github.com/beyondan/gqlparser/v2/parser"
+	"github.com/beyondan/gqlparser/v2/validator"
 )
 
 // Executor executes graphql queries against a schema.
