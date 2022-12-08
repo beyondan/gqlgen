@@ -2,9 +2,11 @@ module github.com/beyondan/gqlgen
 
 go 1.12
 
+replace github.com/beyondan/gqlparser/v2 => ../gqlparser
+
 require (
 	github.com/agnivade/levenshtein v1.0.3 // indirect
-	github.com/beyondan/gqlparser/v2 v2.1.3
+	github.com/beyondan/gqlparser/v2 v2.1.4
 	github.com/go-chi/chi v3.3.2+incompatible
 	github.com/gogo/protobuf v1.0.0 // indirect
 	github.com/gorilla/context v0.0.0-20160226214623-1ea25387ff6f // indirect
