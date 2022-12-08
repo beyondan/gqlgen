@@ -2,8 +2,6 @@ module github.com/beyondan/gqlgen
 
 go 1.12
 
-replace github.com/beyondan/gqlparser/v2 => ../gqlparser
-
 require (
 	github.com/agnivade/levenshtein v1.0.3 // indirect
 	github.com/beyondan/gqlparser/v2 v2.1.4
